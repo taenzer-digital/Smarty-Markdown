@@ -3,8 +3,10 @@
   "description": "A function plugin for the SMARTY Template engine that processes and formats text that uses Markdown.",
   "version": "0.0.1",
   "minimum-stability": "dev",
+  "type": "smarty-plugin",
   "require": {
-    "michelf/php-markdown": "^1.9"
+    "michelf/php-markdown": "^1.9",
+    "composer/installers": "~1.0"
   },
   "authors": [
     {
