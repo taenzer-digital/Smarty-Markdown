@@ -1,0 +1,18 @@
+{
+  "name": "taenzer-digital/smarty-markdown",
+  "description": "A function plugin for the SMARTY Template engine that processes and formats text that uses Markdown.",
+  "require": {
+    "michelf/php-markdown": "^1.9"
+  },
+  "authors": [
+    {
+      "name": "Daniel Crump",
+      "email": "d.crump@taenzer.me"
+    }
+  ],
+  "autoload": {
+    "classmap": [
+      "function.markdown.php"
+    ]
+  }
+}
